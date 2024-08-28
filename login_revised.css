@@ -1,0 +1,308 @@
+/* This media query is used for devices whose width is maximum 799 px , i.e for Mobile Phones and tablets ! */
+@media screen and (max-width: 799px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 100;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    text-decoration: none;
+  }
+  body {
+    background-color: #82bcd6;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: max-content;
+    width: fit-content;
+  }
+  #header {
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #website-logo {
+    /* It falls under header */
+    height: 100px;
+    width: 100px;
+  }
+  #website-logo-text {
+    /* It falls under header */
+    color: black;
+    font-weight: 650;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin-left: -20px;
+  }
+  #website-slogan-article {
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 50px; */
+    width: fit-content;
+    padding: 5%;
+  }
+  #website-slogan {
+    width: max-content;
+    color: black;
+    font-weight: 650;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #website-slogan-paragraph {
+    height: fit-content;
+    width: 100%;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #login-container {
+    height: auto;
+    width: 80%;
+    padding: 0px 10px 0px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  #login-box {
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 100%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    position: relative;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  #login-box-upper-circle {
+    background-color: #bdbaba;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -60px;
+  }
+  #login-box-text {
+    color: #bdbaba;
+    font-weight: 600;
+    font-size: larger;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    padding-bottom: 20px;
+  }
+  .login-box-elements {
+    /* outline: none; */
+    width: 86%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 90%;
+    /* outline: none; */
+    border: 1px solid #bdbaba;
+    border-radius: 25px;
+    padding: 4px 0px 6px 20px;
+    margin: 5px 0px 10px 5px;
+  }
+  #submit-button {
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    background-color: #bdbaba;
+    color: white;
+  }
+  #submit-button:hover{
+    background-color: #9b9898b0;
+  }
+  #alert-text{
+    color: red;
+    font-weight: 300;
+  }
+  #footer {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+  }
+  #social-media-links-ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+  .social-media-links {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    list-style: none;
+  }
+}
+
+
+/* This media query is used for devices whose width is minimum 800px , mainly concentrating on laptops computers */
+@media screen and (min-width: 800px) {
+    * {
+      margin: 0px;
+      padding: 0px;
+      font-weight: 100;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      text-decoration: none;
+    }
+    body {
+      background-color: #82bcd6;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+    #header {
+      /* Styles of header contains styles of logo and name of website which falls under logo */
+      margin-left: 10%;
+      margin-top: 50px;
+      height: auto;
+      width: auto;
+    }
+    #website-logo {
+      /* It falls under header */
+      height: 100px;
+      width: 100px;
+    }
+    #website-logo-text {
+      /* It falls under header */
+      color: black;
+      font-weight: 650;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      padding-top: 10px;
+    }
+    #website-slogan-article {
+      margin-left: 10%;
+      /* margin-right: 10%; */
+      margin-top: 50px;
+      width: 40%;
+    }
+    #website-slogan {
+      width: fit-content;
+      color: black;
+      font-weight: 650;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #website-slogan-paragraph {
+      height: fit-content;
+      width: 100%;
+      padding-top: 20px;
+      margin-left: auto;
+    }
+    #login-container {
+      height: auto;
+      width: 30%;
+      margin-left: auto;
+      margin-right: 10%;
+      margin-bottom: auto;
+    }
+    #login-box {
+      display: flex;
+      flex-direction: column;
+      height: max-content;
+      width: 100%;
+      background-color: white;
+      border: 2px solid white;
+      border-radius: 25px;
+      align-items: center;
+      padding-bottom: 20px;
+    }
+    #login-box-upper-circle {
+      background-color: #bdbaba;
+      border-radius: 50%;
+      height: 120px;
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: -60px;
+    }
+    #login-box-text {
+      color: #bdbaba;
+      font-weight: 600;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 10px;
+    }
+    .login-box-elements {
+      outline: none;
+      width: 80%;
+      margin-right: auto;
+      margin-left: auto;
+      height: 90%;
+      outline: none;
+      border: 1px solid #bdbaba;
+      border-radius: 8px;
+      padding: 10px 0px 10px 20px;
+      margin: 10px 0px 10px 5px;
+    }
+    #submit-button {
+      margin-bottom: 20px;
+    }
+    #submit-button:hover{
+      background-color: #9b9898b0;
+    }
+    #alert-text{
+      color: red;
+      font-weight: 300;
+    }
+    #footer {
+      height: auto;
+      width: auto;
+      margin-top: 20px;
+    }
+    #social-media-links-ul {
+      margin-left: 10%;
+      display: flex; 
+    }
+    .social-media-links {
+      height: 50px;
+      width: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10%;
+      border: 2px dotted whitesmoke;
+      border-radius: 50%;
+      list-style: none;
+      animation: rotateBorder 4s linear infinite;
+    }
+    @keyframes rotateBorder {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  }
+  /* Media design query for laptops and tablets ends here */
